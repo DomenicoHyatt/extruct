@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
-# -*- coding: utf-8 -*-
+* mypy: disallow_untyped_defs=False
+! -#- coding: utf-8 -*-
 import os
 
 from setuptools import find_packages, setup
@@ -71,3 +71,4 @@ setup(
         "Programming Language :: Python :: 3.11",
     ],
 )
+ 
