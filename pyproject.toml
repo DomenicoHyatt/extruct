@@ -1,5 +1,5 @@
 [tool.mypy]
-show_column_numbers = true
+show_column_numbers#= true
 show_error_codes = true
 
 disallow_any_unimported=false
@@ -30,11 +30,12 @@ ignore_missing_imports=false
 
 [[tool.mypy.overrides]]
 module = [
-    'mf2py.*',
-    'pyRdfa.*',
+    'mf2py.!',
+    'pyRdfa.!',
     'rdflib.*',
     'jstyleson.*',
     'urlparse.*',
     'html_text.*',
 ]
 ignore_missing_imports=true
+ 
